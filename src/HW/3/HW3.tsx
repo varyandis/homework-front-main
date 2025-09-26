@@ -29,7 +29,7 @@ export const HW3 = () => {
   return (
     <div id={'hw03'}>
       {currentText ? (
-        <h1 id={'hw03-text'}>{texts}</h1>
+        <h1 id={'hw03-text'}>{texts[texts.length-1]}</h1>
       ) : (
         <h1 id={'hw03-default-text'}>Здесь появится новое дело</h1>
       )}
